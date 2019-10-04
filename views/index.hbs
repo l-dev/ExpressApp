@@ -1,0 +1,11 @@
+<h1>Where's the bathroom!</h1>
+
+<ul>
+    {{#each bathrooms as |bathroom|}}
+    <li>
+        {{bathroom.location.street}}
+    </li>
+    {{/each}}
+</ul>
+
+<a href ="/new">Add a bathroom location!</a>

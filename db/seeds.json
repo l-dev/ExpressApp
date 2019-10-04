@@ -1,0 +1,43 @@
+[
+    {
+    "location": {
+        "street": "889 Date St",
+        "city": "San Diego",
+        "state": "CA",
+        "zipcode": 91210
+    }
+},
+{
+    "location": {
+        "street": "5224 Wallace Way",
+        "city": "Las Vegas",
+        "state": "Nevada",
+        "zipcode": 88901
+    }
+},
+{
+    "location": {
+        "street": "89 Bumble Bee Ln",
+        "city": "Seattle",
+        "state": "WA",
+        "zipcode": 98101
+    }
+},
+{
+    "location": {
+        "street": "49 Garden St",
+        "city": "Boston",
+        "state": "MA",
+        "zipcode": 21340
+    }
+},
+{
+    "location": {
+        "street": "17 Commonwealth Avenue",
+        "city": "Brighton",
+        "state": "MA",
+        "zipcode": 21120
+    }
+}
+
+]

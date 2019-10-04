@@ -1,0 +1,13 @@
+<h2>Edit Item:</h2>
+
+<form action="/{{bathrooms.id}}?_method=put" method="post">
+  <p>
+    <label>Attribute:</label>
+    <input type="text" value="{{bathrooms.location.street}}" name="attribute"/>
+  </p>
+  <input type="submit" value="Update" />
+</form>
+
+<form action="/{{bathrooms.id}}?_method=delete" method="post">
+  <input type="submit" value="Remove">
+</form>

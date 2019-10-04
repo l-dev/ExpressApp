@@ -1,0 +1,26 @@
+{
+  "name": "expressapp",
+  "version": "1.0.0",
+  "description": "Express app used with Handlebars, Mongoose, JavaScript, Body-Parser, Method-Override",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/l-dev/ExpressApp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/l-dev/ExpressApp/issues"
+  },
+  "homepage": "https://github.com/l-dev/ExpressApp#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "hbs": "^4.0.5",
+    "method-override": "^3.0.0",
+    "mongoose": "^5.7.3"
+  }
+}
