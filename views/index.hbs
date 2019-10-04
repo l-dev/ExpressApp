@@ -3,7 +3,7 @@
 <ul>
     {{#each bathrooms as |bathroom|}}
     <li>
-        {{bathroom.location.street}}
+      <a href="{{bathroom.id}}"> {{bathroom.street}}</a>
     </li>
     {{/each}}
 </ul>

@@ -10,9 +10,9 @@ app.use(methodOverride("_method"));
 const myController = require("./controllers/myBathroom");
 app.use("/", myController);
 
-app.get("/", (req, res) => {
-    res.send("Hello")
-})
+app.get(':id', function(req, res){
+    res.send('id: ' + req.params.id)
+    });
 
 app.listen(5000, () => {
   console.log("Rollin on port 5000");

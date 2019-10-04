@@ -1,3 +1,14 @@
-<h1>Bathroom Locations</h1>
+<h1>{{street}} Information</h1>
 
-<h2>{{myBathroom.location}}</h2>
+<h2>Street: {{street}}</h2>
+<h2>City: {{city}}</h2>
+<h2>State: {{state}}</h2>
+<h2>Zipcode: {{zipcode}}</h2>
+<h2>Comments: {{comments}}</h2>
+
+<p>Don't like what you see? You can <a href=/edit/{{id}}>update info</a> here!</p> 
+<p>Or just simply remove by clicking the remove button below! <form action="/{{id}}?_method=delete" method="post">
+            <input type="submit" value="Remove">
+        </form>
+
+</p>

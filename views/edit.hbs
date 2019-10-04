@@ -1,13 +1,26 @@
-<h2>Edit Item:</h2>
+<h2>Update the bathroom location!</h2>
 
 <form action="/{{bathrooms.id}}?_method=put" method="post">
   <p>
-    <label>Attribute:</label>
-    <input type="text" value="{{bathrooms.location.street}}" name="attribute"/>
+    <label>Street:</label>
+    <input type="text" value="{{bathrooms.street}}" name="street"/>
+  </p>
+    <p>
+    <label>City:</label>
+    <input type="text" value="{{bathrooms.city}}" name="city"/>
+  </p>
+    <p>
+    <label>State:</label>
+    <input type="text" value="{{bathrooms.state}}" name="state"/>
+  </p>
+    <p>
+    <label>Zipcode:</label>
+    <input type="text" value="{{bathrooms.zipcode}}" name="zipcode"/>
+  </p>
+    <p>
+    <label>Comments:</label>
+    <input type="text" value="{{bathrooms.comments}}" name="comments"/>
   </p>
   <input type="submit" value="Update" />
 </form>
 
-<form action="/{{bathrooms.id}}?_method=delete" method="post">
-  <input type="submit" value="Remove">
-</form>
