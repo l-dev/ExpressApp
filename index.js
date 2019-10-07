@@ -13,7 +13,11 @@ app.get(':id', function(req, res){
     res.send('id: ' + req.params.id)
     });
 
+    app.set("port", process.env.PORT || 5000);
 
+    app.listen(app.get("port"), () => {
+      console.log(`✅ PORT: ${app.get("port")} `);
+    });
 
 app.listen(5000, () => {
   console.log("Rollin on port 5000");
