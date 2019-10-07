@@ -41,6 +41,7 @@
 function initMap() {
   // The location of Uluru 
   var sanDiego = {lat: 32.722728, lng: -117.157053}
+  //bathroom.cords.latitude
   // The map, centered at sanDiego
   var map = new google.maps.Map(
       document.getElementById('map'), {zoom: 15, center: sanDiego});
@@ -50,7 +51,11 @@ function initMap() {
 }
     </script>
 
-     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBKAsIksXxWq16eCzHWO_vgrlIPRZdLXI8&callback=initMap"
-  type="text/javascript"></script>
+     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBKAsIksXxWq16eCzHWO_vgrlIPRZdLXI8&callback=initMap"
+  type="text/javascript">
+  </script>
   </body>
 </html>
+
+  {{!-- var marker = new google.maps.Marker({position: new google.maps.LatLng({bathroom.cords.latitude}, {bathroom.cords.longitude}), map: map});
+} --}}
