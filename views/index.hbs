@@ -1,5 +1,8 @@
+<div class="container">
+<div class = "page-header">
 <h1>Where's the bathroom!</h1>
-
+</div>
+<div class = "jumbotron">
 <ul>
     {{#each bathrooms as |bathroom|}}
     <li>
@@ -7,5 +10,24 @@
     </li>
     {{/each}}
 </ul>
+<br>
+<br>
 
-<a href ="/new">Add a bathroom location!</a>
+<button type = "button" id="add" class="text-muted"><a href ="/new">Add a bathroom location!</a></button>
+</div>
+</div>
+
+<style>
+  .jumbotron {
+    background-color: beige;
+  }
+  #add {
+    float: left;
+  }
+  ul {
+    color: beige;
+  }
+  h1 {
+    font-weight: bold;
+  }
+</style>

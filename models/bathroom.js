@@ -6,7 +6,7 @@ const bathroomSchema = new mongoose.Schema({
         city: String,
         state: String,
         zipcode: Number,
-        comments: String
+        comments: String,
     
 })
 
