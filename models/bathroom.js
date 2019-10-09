@@ -6,11 +6,7 @@ const bathroomSchema = new mongoose.Schema({
         city: String,
         state: String,
         zipcode: Number,
-        comments: String,
-        cords: {
-                longitude: Number,
-                latitude: Number
-        }
+        comments: String
     
 })
 

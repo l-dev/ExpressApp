@@ -6,7 +6,7 @@ const app = express();
 app.set("view engine", "hbs");
 app.use(parser.urlencoded({ extended: true }));
 app.use(methodOverride("_method"));
-
+app.use(express.static("public"));
 const myController = require("./controllers/myBathroom");
 app.use("/", myController);
 app.get(':id', function(req, res){
@@ -19,6 +19,6 @@ app.get(':id', function(req, res){
       console.log(`✅ PORT: ${app.get("port")} `);
     });
 
-app.listen(5000, () => {
-  console.log("Rollin on port 5000");
-});
+// app.listen(5000, () => {
+//   console.log("Rollin on port 5000");
+// });

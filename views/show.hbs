@@ -14,24 +14,25 @@
         </form>
 </p>
 </div>
-   <style>
-       /* Set the size of the div element that contains the map */
-      #map {
-        height: 550px;  /* The height is 400 pixels */
-        width: 50%;  /* The width is the width of the web page */
-        float: right;
-       }
-      .jumbotron {
-          background-color: white;
-          float: left;
-          width: 50%;
-      }
-      h1 {
-          color: white;
-      }
-       
-    </style>
+ 
   </head>
+<style>
+/* Set the size of the div element that contains the map */
+#map {
+ height: 550px;  /* The height is 400 pixels */
+ width: 50%;  /* The width is the width of the web page */
+ float: right;
+}
+.jumbotron {
+   background-color: white;
+   float: left;
+   width: 50%;
+}
+h1 {
+   color: white;
+}
+</style>
+
   <body>
   
     <!--The div element for the map -->
@@ -49,6 +50,8 @@ function initMap() {
 
   var marker = new google.maps.Marker({position: sanDiego, map: map});
 }
+
+
     </script>
 
      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBKAsIksXxWq16eCzHWO_vgrlIPRZdLXI8&callback=initMap"
