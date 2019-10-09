@@ -27,3 +27,7 @@ There are a few things I would like to change about the app in the future to mak
 - seperating user entered bathrooms by state or zipcode
 - More CSS or Bootstrap styling 
 
+
+# Deployed on Heroku
+
+https://bathroomapp.herokuapp.com/
