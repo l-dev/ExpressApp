@@ -6,6 +6,9 @@
 
 # Planning
 
+The planning began with a request-response cycle of the App I wanted to create. Once I was able to visualize the cycle I created a wireframe. The wireframe showed the routes that I needed and where I could implement them.
+
+![request-response cycle](https://user-images.githubusercontent.com/54283215/66491341-90f1f400-ea80-11e9-9344-100f22cfe8ea.png)<br>
 Bronze - MVP, Full working CRUD<br>
 Silver - Adding a functional third party API<br>
 Gold - Users having the ability to search from current location and find themselves on the map with existing bathrooms around them
